@@ -1,0 +1,6 @@
+ID,FromNodeID,ToNodeID,Length
+L1,A1,A2,"4"
+L2,A2,A3,"10"
+L3,A3,A4,"3"
+L4,A4,A5,"10"
+L5,A5,A6,"4"

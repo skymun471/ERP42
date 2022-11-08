@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="waypoint_race_car_control_node" pkg="waypoint_race_car_control" type="waypoint_race_car_control_node" output="screen">
+  </node>
+  <node name="race_waypoints_move_node" pkg="race_waypoints_move" type="race_waypoints_move_node" output="screen">
+  </node>
+</launch>

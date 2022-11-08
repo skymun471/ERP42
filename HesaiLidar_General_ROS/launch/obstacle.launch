@@ -1,0 +1,4 @@
+<launch>
+        <node name="obstacle_avoidance" pkg="hesai_lidar" type="obstacle_avoidance" output="screen">
+  </node>
+</launch>

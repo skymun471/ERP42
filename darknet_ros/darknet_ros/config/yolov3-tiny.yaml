@@ -1,0 +1,14 @@
+yolo_model:
+
+  config_file:
+    name: yolov3-tiny_obj.cfg
+  weight_file:
+    name: yolov3-tiny_obj_3300.weights
+  threshold:
+    value: 0.9
+  detection_classes:
+    names:
+      - CPZ      
+      - Five
+      - STOP
+      - Seven

@@ -1,0 +1,31 @@
+<launch>
+  <node name="usb_cam1" pkg="usb_cam" type="usb_cam_node">
+    <param name="video_device" value="/dev/video2" />
+    <param name="brightness" value="210" />
+    <param name="contrast" value="50" />
+    <param name="image_width" value="640" />
+    <param name="image_height" value="480" />
+    <param name="framerate" value="30" />
+    <param name="pixel_format" value="yuyv" />
+    <param name="autoexposure" value="false" />
+    <param name="exposure" value="170" />
+    <param name="camera_frame_id" value="usb_cam" />
+    <param name="io_method" value="mmap"/>
+  </node>
+  <node name="vision" pkg="m_race_vision" type="race_opencv_vision_node" output="screen">
+  </node>
+  <node name="main_node" pkg="erp_driver" type="test_main.py" output="screen">
+  </node>
+  <node name="usb_cam" pkg="usb_cam" type="usb_cam_node">
+    <param name="video_device" value="/dev/video4" />
+    <param name="brightness" value="-1" />
+    <param name="image_width" value="640" />
+    <param name="image_height" value="480" />
+    <param name="framerate" value="30" />
+    <param name="pixel_format" value="yuyv" />
+    <param name="autoexposure" value="false" />
+    <param name="exposure" value="400" />
+    <param name="camera_frame_id" value="usb_cam" />
+    <param name="io_method" value="mmap"/>
+  </node>
+</launch>

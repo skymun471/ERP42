@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/car/test_ERP42/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/car/test_ERP42/src/car_control/include/**",
+        "/home/car/test_ERP42/src/darknet_ros/darknet_ros/include/**",
+        "/home/car/test_ERP42/src/erp_driver/include/**",
+        "/home/car/test_ERP42/src/vision/include/**",
+        "/home/car/test_ERP42/src/waypoints_move/include/**",
+        "/home/car/test_ERP42/src/rosserial/rosserial_server/include/**",
+        "/home/car/test_ERP42/src/rosserial/rosserial_test/include/**",
+        "/home/car/test_ERP42/src/solo_jeju/include/**",
+        "/home/car/test_ERP42/src/ublox_f9p/ublox_gps/include/**",
+        "/home/car/test_ERP42/src/ublox_f9p/ublox_msgs/include/**",
+        "/home/car/test_ERP42/src/ublox_f9p/ublox_serialization/include/**",
+        "/home/car/test_ERP42/src/line_cam/usb_cam/include/**",
+        "/home/car/test_ERP42/src/ublox_f9p/ROS-UTM-LLA/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
